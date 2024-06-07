@@ -1,10 +1,10 @@
-import tests.mytools as mt
+import src.mytools as mt
 import streamlit as st
 import mlflow
 import joblib
 import spacy
 
-# Chargement du modèle SpaCy:
+# Chargement du modèle linguistique de processing:
 nlp = spacy.load("en_core_web_lg")
 
 # Chargement du vectorizer :
@@ -17,13 +17,6 @@ binarizer = joblib.load(binarizer_path)
 
 # Chargement du modèle de classification :
 model = mlflow.sklearn.load_model("runs:/432b355cce7644d4a3fdd89fa5f29204/SGDClassifier")
-
-# Définition de la fonction de prédiction :
-def predict_tags(texte):
-    X = vectorizer.transform([texte])
-    y = model.predict(X)
-    tags = binarizer.inverse_transform(y)
-    return tags
 
 # Titre de l'interface Streamlit :
 st.title('Classification de questions')
