@@ -1,4 +1,4 @@
-import tests.mytools as mt
+import src.mytools as mt
 import streamlit as st
 import mlflow
 import joblib
