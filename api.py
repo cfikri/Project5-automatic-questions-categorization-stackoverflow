@@ -5,7 +5,13 @@ import joblib
 import spacy
 
 # Chargement du modèle SpaCy:
-nlp = spacy.load("en_core_web_lg")
+try:
+    nlp = spacy.load("en_core_web_lg")
+except OSError:
+    print("Downloading language model...")
+    from spacy.cli import download
+    download("en_core_web_lg")
+    nlp = spacy.load("en_core_web_lg")
 
 # Chargement du vectorizer :
 vectorizer_path = mlflow.artifacts.download_artifacts("runs:/cf44df76dc5649e2a3b389e6f0552647/tfidf_vectorizer/vectorizer.pkl")
