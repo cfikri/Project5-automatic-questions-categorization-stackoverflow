@@ -4,8 +4,13 @@ import mlflow
 import joblib
 import spacy
 
-# Chargement du modèle linguistique de processing:
-nlp = spacy.load("en_core_web_lg")
+# Chargement du modèle SpaCy:
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    print("Downloading language model...")
+    from spacy.cli import download
+    nlp = download("en_core_web_sm")
 
 # Chargement du vectorizer :
 vectorizer_path = mlflow.artifacts.download_artifacts("runs:/cf44df76dc5649e2a3b389e6f0552647/tfidf_vectorizer/vectorizer.pkl")
@@ -32,7 +37,7 @@ if st.button('Suggérer des Tags'):
     if titre and question:
         texte = mt.process_text(nlp, titre + ' ' + question)
         texte = ' '.join(texte)
-        tags = predict_tags(texte)
+        tags = mt.predict_tags(vectorizer, binarizer, model, texte)
         tags = tags[0].tolist()
         st.write(f'Tags suggérés : {tags}')
     else:
