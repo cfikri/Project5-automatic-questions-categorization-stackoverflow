@@ -245,3 +245,10 @@ def average_distance(df1, df2, metric=cosine_similarity):
     for index in df1.index:
             distances.append(metric(df1.loc[index,:], df2.loc[index,:]))
     return np.mean(distances)
+
+# Définition de la fonction de prédiction :
+def predict_tags(vectorizer, binarizer, model, texte):
+    X = vectorizer.transform([texte])
+    y = model.predict(X)
+    tags = binarizer.inverse_transform(y)
+    return tags
