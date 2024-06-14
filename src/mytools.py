@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import spacy
 import re
 import mlflow
+from spacy.cli import download
 
 
 # La fonction *valeurs_manquantes* ci-dessous permet de déterminer le nombre et le pourcentage de valeurs manquantes (à 0.1% près) de chaque features d'un dataset.
@@ -252,3 +253,10 @@ def predict_tags(vectorizer, binarizer, model, texte):
     y = model.predict(X)
     tags = binarizer.inverse_transform(y)
     return tags
+
+# Chargement d'un modèle linguistique Spacy :
+def load_spacy_model(model_name):
+    try:
+        return spacy.load(model_name)
+    except OSError:
+        return download(model_name)
