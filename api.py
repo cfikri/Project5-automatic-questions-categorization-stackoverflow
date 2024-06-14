@@ -1,12 +1,16 @@
 import src.mytools as mt
 import streamlit as st
 import mlflow
+import os
 import joblib
 import spacy
 from spacy.cli import download
 
 # Chargement du modèle SpaCy:
 nlp = mt.load_spacy_model("en_core_web_sm")
+
+# Définir l'URI de suivi MLflow
+mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI", "http://127.0.0.1:5000/"))
 
 # Chargement du vectorizer :
 vectorizer_path = mlflow.artifacts.download_artifacts("runs:/cf44df76dc5649e2a3b389e6f0552647/tfidf_vectorizer/vectorizer.pkl")
