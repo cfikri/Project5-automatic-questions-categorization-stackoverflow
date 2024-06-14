@@ -3,14 +3,10 @@ import streamlit as st
 import mlflow
 import joblib
 import spacy
+from spacy.cli import download
 
 # Chargement du modèle SpaCy:
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    print("Downloading language model...")
-    from spacy.cli import download
-    nlp = download("en_core_web_sm")
+nlp = mt.load_spacy_model("en_core_web_sm")
 
 # Chargement du vectorizer :
 vectorizer_path = mlflow.artifacts.download_artifacts("runs:/cf44df76dc5649e2a3b389e6f0552647/tfidf_vectorizer/vectorizer.pkl")
