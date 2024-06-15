@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: mlflow-server
+    env: python
+    plan: free
+    buildCommand: "pip install -r mlflow_server/requirements.txt"
+    startCommand: "mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns --host 0.0.0.0 --port 5000"
+    envVars:
+      - key: MLFLOW_TRACKING_URI
+        value: http://127.0.0.1:5000
+  
+  - type: web
+    name: projet5-api
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run api.py"
+    envVars:
+      - key: MLFLOW_TRACKING_URI
+        value: http://mlflow-server:5000
