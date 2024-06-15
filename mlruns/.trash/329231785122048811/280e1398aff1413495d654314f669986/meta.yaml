@@ -1,0 +1,16 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/329231785122048811/280e1398aff1413495d654314f669986/artifacts
+deleted_time: 1716021818512
+end_time: 1715715333309
+entry_point_name: ''
+experiment_id: '329231785122048811'
+lifecycle_stage: deleted
+run_id: 280e1398aff1413495d654314f669986
+run_name: Topics du NMF optimal (TF-IDF)
+run_uuid: 280e1398aff1413495d654314f669986
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715715333289
+status: 3
+tags: []
+user_id: chakir

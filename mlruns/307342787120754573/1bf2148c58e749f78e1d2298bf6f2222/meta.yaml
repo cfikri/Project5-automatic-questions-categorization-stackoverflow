@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/307342787120754573/1bf2148c58e749f78e1d2298bf6f2222/artifacts
+end_time: 1717075556916
+entry_point_name: ''
+experiment_id: '307342787120754573'
+lifecycle_stage: active
+run_id: 1bf2148c58e749f78e1d2298bf6f2222
+run_name: SGDClassifier_l1 (BERT)
+run_uuid: 1bf2148c58e749f78e1d2298bf6f2222
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717075553201
+status: 3
+tags: []
+user_id: chakir

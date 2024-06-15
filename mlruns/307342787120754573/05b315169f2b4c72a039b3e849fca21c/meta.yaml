@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/307342787120754573/05b315169f2b4c72a039b3e849fca21c/artifacts
+end_time: 1717005427010
+entry_point_name: ''
+experiment_id: '307342787120754573'
+lifecycle_stage: active
+run_id: 05b315169f2b4c72a039b3e849fca21c
+run_name: Regression logistique (BERT)
+run_uuid: 05b315169f2b4c72a039b3e849fca21c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717005422274
+status: 3
+tags: []
+user_id: chakir

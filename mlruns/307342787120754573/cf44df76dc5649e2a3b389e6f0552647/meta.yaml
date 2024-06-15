@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/307342787120754573/cf44df76dc5649e2a3b389e6f0552647/artifacts
+end_time: 1716786995493
+entry_point_name: ''
+experiment_id: '307342787120754573'
+lifecycle_stage: active
+run_id: cf44df76dc5649e2a3b389e6f0552647
+run_name: TfidfVectorizer
+run_uuid: cf44df76dc5649e2a3b389e6f0552647
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716786994627
+status: 3
+tags: []
+user_id: chakir

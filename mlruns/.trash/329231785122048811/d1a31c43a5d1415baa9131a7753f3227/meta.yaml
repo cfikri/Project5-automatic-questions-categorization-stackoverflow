@@ -1,0 +1,16 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/329231785122048811/d1a31c43a5d1415baa9131a7753f3227/artifacts
+deleted_time: 1716021818512
+end_time: 1715624225881
+entry_point_name: ''
+experiment_id: '329231785122048811'
+lifecycle_stage: deleted
+run_id: d1a31c43a5d1415baa9131a7753f3227
+run_name: Recherche du LDA optimal
+run_uuid: d1a31c43a5d1415baa9131a7753f3227
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715624225868
+status: 3
+tags: []
+user_id: chakir

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/307342787120754573/ddb05eabc00c486395ff57a0af9e9071/artifacts
+end_time: 1716063816673
+entry_point_name: ''
+experiment_id: '307342787120754573'
+lifecycle_stage: active
+run_id: ddb05eabc00c486395ff57a0af9e9071
+run_name: Regression logistique (TF-IDF)
+run_uuid: ddb05eabc00c486395ff57a0af9e9071
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716063813844
+status: 3
+tags: []
+user_id: chakir

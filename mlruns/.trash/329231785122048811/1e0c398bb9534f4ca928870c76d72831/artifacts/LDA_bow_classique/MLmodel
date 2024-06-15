@@ -1,0 +1,12 @@
+artifact_path: LDA_bow_classique
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.12.1
+model_size_bytes: 10855969
+model_uuid: eb5398bd6e594526bc0acf84bc8e2544
+run_id: 1e0c398bb9534f4ca928870c76d72831
+utc_time_created: '2024-05-14 13:25:37.888547'

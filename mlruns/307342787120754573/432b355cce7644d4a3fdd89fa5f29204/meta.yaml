@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/307342787120754573/432b355cce7644d4a3fdd89fa5f29204/artifacts
+end_time: 1716197482642
+entry_point_name: ''
+experiment_id: '307342787120754573'
+lifecycle_stage: active
+run_id: 432b355cce7644d4a3fdd89fa5f29204
+run_name: SGDClassifier_l1 (TF-IDF)
+run_uuid: 432b355cce7644d4a3fdd89fa5f29204
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716197480928
+status: 3
+tags: []
+user_id: chakir

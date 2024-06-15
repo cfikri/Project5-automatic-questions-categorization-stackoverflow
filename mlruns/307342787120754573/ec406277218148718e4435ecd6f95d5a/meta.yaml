@@ -1,0 +1,16 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/307342787120754573/ec406277218148718e4435ecd6f95d5a/artifacts
+deleted_time: 1716211737079
+end_time: 1716147176878
+entry_point_name: ''
+experiment_id: '307342787120754573'
+lifecycle_stage: deleted
+run_id: ec406277218148718e4435ecd6f95d5a
+run_name: SGDClassifier_l1 (TF-IDF)
+run_uuid: ec406277218148718e4435ecd6f95d5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716147174747
+status: 3
+tags: []
+user_id: chakir

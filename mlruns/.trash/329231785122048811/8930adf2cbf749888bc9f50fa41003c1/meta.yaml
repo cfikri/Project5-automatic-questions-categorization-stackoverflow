@@ -1,0 +1,16 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/329231785122048811/8930adf2cbf749888bc9f50fa41003c1/artifacts
+deleted_time: 1714486562025
+end_time: 1714485844872
+entry_point_name: ''
+experiment_id: '329231785122048811'
+lifecycle_stage: deleted
+run_id: 8930adf2cbf749888bc9f50fa41003c1
+run_name: able-frog-173
+run_uuid: 8930adf2cbf749888bc9f50fa41003c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714485844853
+status: 3
+tags: []
+user_id: chakir

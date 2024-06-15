@@ -1,0 +1,16 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/329231785122048811/d2c8a97e38294a7182b9be16af241a19/artifacts
+deleted_time: 1714559040609
+end_time: 1714486477117
+entry_point_name: ''
+experiment_id: '329231785122048811'
+lifecycle_stage: deleted
+run_id: d2c8a97e38294a7182b9be16af241a19
+run_name: tf_idf et visualisation
+run_uuid: d2c8a97e38294a7182b9be16af241a19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714486477097
+status: 3
+tags: []
+user_id: chakir

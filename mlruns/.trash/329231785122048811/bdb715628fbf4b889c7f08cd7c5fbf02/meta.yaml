@@ -1,0 +1,16 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/329231785122048811/bdb715628fbf4b889c7f08cd7c5fbf02/artifacts
+deleted_time: 1716021818512
+end_time: 1715705217807
+entry_point_name: ''
+experiment_id: '329231785122048811'
+lifecycle_stage: deleted
+run_id: bdb715628fbf4b889c7f08cd7c5fbf02
+run_name: Recherche du NMF optimal
+run_uuid: bdb715628fbf4b889c7f08cd7c5fbf02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715705217796
+status: 3
+tags: []
+user_id: chakir

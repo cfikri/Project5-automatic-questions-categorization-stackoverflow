@@ -1,0 +1,16 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/329231785122048811/7c5a12ee61084d23a2cfcb3bde3d0522/artifacts
+deleted_time: 1716021818512
+end_time: 1715417055827
+entry_point_name: ''
+experiment_id: '329231785122048811'
+lifecycle_stage: deleted
+run_id: 7c5a12ee61084d23a2cfcb3bde3d0522
+run_name: bag-of-words tf-idf et visualisation avec t-SNE
+run_uuid: 7c5a12ee61084d23a2cfcb3bde3d0522
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715417055806
+status: 3
+tags: []
+user_id: chakir

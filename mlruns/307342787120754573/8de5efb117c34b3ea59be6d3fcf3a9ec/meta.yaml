@@ -1,0 +1,16 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/307342787120754573/8de5efb117c34b3ea59be6d3fcf3a9ec/artifacts
+deleted_time: 1716787008510
+end_time: 1716750466617
+entry_point_name: ''
+experiment_id: '307342787120754573'
+lifecycle_stage: deleted
+run_id: 8de5efb117c34b3ea59be6d3fcf3a9ec
+run_name: masked-fox-354
+run_uuid: 8de5efb117c34b3ea59be6d3fcf3a9ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716750465742
+status: 3
+tags: []
+user_id: chakir

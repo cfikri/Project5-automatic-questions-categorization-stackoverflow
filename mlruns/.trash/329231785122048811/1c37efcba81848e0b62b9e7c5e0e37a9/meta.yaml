@@ -1,0 +1,16 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/329231785122048811/1c37efcba81848e0b62b9e7c5e0e37a9/artifacts
+deleted_time: 1716021818512
+end_time: 1714564713009
+entry_point_name: ''
+experiment_id: '329231785122048811'
+lifecycle_stage: deleted
+run_id: 1c37efcba81848e0b62b9e7c5e0e37a9
+run_name: Topics du NMF optimal
+run_uuid: 1c37efcba81848e0b62b9e7c5e0e37a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714564712971
+status: 3
+tags: []
+user_id: chakir

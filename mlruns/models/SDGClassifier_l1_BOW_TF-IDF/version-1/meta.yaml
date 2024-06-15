@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1716728633831
+current_stage: None
+description: ''
+last_updated_timestamp: 1716728633831
+name: SDGClassifier_l1_BOW_TF-IDF
+run_id: 432b355cce7644d4a3fdd89fa5f29204
+run_link: ''
+source: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/307342787120754573/432b355cce7644d4a3fdd89fa5f29204/artifacts/SGDClassifier
+status: READY
+status_message: null
+storage_location: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/307342787120754573/432b355cce7644d4a3fdd89fa5f29204/artifacts/SGDClassifier
+user_id: null
+version: 1

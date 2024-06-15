@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/307342787120754573/0386fb0b266b4e4b9306e1ab7b733127/artifacts
+end_time: 1716197917520
+entry_point_name: ''
+experiment_id: '307342787120754573'
+lifecycle_stage: active
+run_id: 0386fb0b266b4e4b9306e1ab7b733127
+run_name: SGDClassifier_l2 (Word2Vec)
+run_uuid: 0386fb0b266b4e4b9306e1ab7b733127
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716197915850
+status: 3
+tags: []
+user_id: chakir

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/307342787120754573/9bb3aee865af40a5936c75fcf4a04c2f/artifacts
+end_time: 1716147317288
+entry_point_name: ''
+experiment_id: '307342787120754573'
+lifecycle_stage: active
+run_id: 9bb3aee865af40a5936c75fcf4a04c2f
+run_name: Regression logistique (Word2Vec)
+run_uuid: 9bb3aee865af40a5936c75fcf4a04c2f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716147315494
+status: 3
+tags: []
+user_id: chakir

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/335480280355663918/99d46f11694a415c9b4b0e905c0f7b98/artifacts
+end_time: 1716030708824
+entry_point_name: ''
+experiment_id: '335480280355663918'
+lifecycle_stage: active
+run_id: 99d46f11694a415c9b4b0e905c0f7b98
+run_name: Recherche du LDA optimal (TF-IDF)
+run_uuid: 99d46f11694a415c9b4b0e905c0f7b98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716030708813
+status: 3
+tags: []
+user_id: chakir

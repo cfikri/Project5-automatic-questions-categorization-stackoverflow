@@ -1,0 +1,16 @@
+artifact_uri: file:///home/chakir/Bureau/PROJETS/Projet5/mlruns/329231785122048811/da06e009c672438eabd3344d9caaeb89/artifacts
+deleted_time: 1716021818512
+end_time: 1714559885337
+entry_point_name: ''
+experiment_id: '329231785122048811'
+lifecycle_stage: deleted
+run_id: da06e009c672438eabd3344d9caaeb89
+run_name: Topics du LDA optimal
+run_uuid: da06e009c672438eabd3344d9caaeb89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714559885329
+status: 3
+tags: []
+user_id: chakir
