@@ -3,7 +3,10 @@ import streamlit as st
 import mlflow
 import joblib
 import spacy
-from spacy.cli import download
+import os
+
+# Définir l'URI de suivi MLflow à l'URL fournie par Render :
+mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI", "http://127.0.0.1:5000"))
 
 # Chargement du modèle SpaCy:
 nlp = mt.load_spacy_model("en_core_web_sm")
