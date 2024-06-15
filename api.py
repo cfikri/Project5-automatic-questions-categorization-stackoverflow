@@ -8,13 +8,6 @@ import os
 # Définir l'URI de suivi MLflow
 mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI", "http://127.0.0.1:5000/"))
 
-# Lancer Streamlit sur le port attribué par Render
-if 'PORT' in os.environ:
-    port = int(os.environ['PORT'])
-    os.system(f"streamlit run api.py --server.port {port}")
-else:
-    os.system("streamlit run api.py")
-
 # Chargement du modèle SpaCy:
 nlp = mt.load_spacy_model("en_core_web_sm")
 
