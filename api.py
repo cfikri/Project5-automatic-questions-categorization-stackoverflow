@@ -6,21 +6,24 @@ import spacy
 import os
 
 # Définir l'URI de suivi MLflow
-mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI", "http://127.0.0.1:5000/"))
+mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI","http://ec2-52-209-5-80.eu-west-1.compute.amazonaws.com:5000"))
 
 # Chargement du modèle SpaCy:
 nlp = mt.load_spacy_model("en_core_web_sm")
 
 # Chargement du vectorizer :
-vectorizer_path = mlflow.artifacts.download_artifacts("runs:/cf44df76dc5649e2a3b389e6f0552647/tfidf_vectorizer/vectorizer.pkl")
+adresse = "s3://mlflow-cfikri/795809222013714058/045ef2a624f847be94de59dabbcc71a9/artifacts/tfidf_vectorizer/vectorizer.pkl"
+vectorizer_path = mlflow.artifacts.download_artifacts(adresse)
 vectorizer = joblib.load(vectorizer_path)
 
 # Chargement du binarizer :
-binarizer_path = mlflow.artifacts.download_artifacts("runs:/59d7eb11b8f0468584fa2e59346d1d75/binarizer/binarizer.pkl")
+adresse = "s3://mlflow-cfikri/795809222013714058/02eed1cf1390491e8e525f9ac2e6e17b/artifacts/binarizer/binarizer.pkl"
+binarizer_path = mlflow.artifacts.download_artifacts(adresse)
 binarizer = joblib.load(binarizer_path)
 
 # Chargement du modèle de classification :
-model = mlflow.sklearn.load_model("runs:/432b355cce7644d4a3fdd89fa5f29204/SGDClassifier")
+adresse = "s3://mlflow-cfikri/795809222013714058/1acc9429a88f4555933b8fc8796ed48b/artifacts/SGDClassifier"
+model = mlflow.sklearn.load_model(adresse)
 
 # Titre de l'interface Streamlit :
 st.title('Classification de questions')
