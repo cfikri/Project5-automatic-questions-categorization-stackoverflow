@@ -47,3 +47,33 @@ def test_predict_tags():
 
     # Vérifier que la fonction retourne les tags attendus
     assert tags == ["tag1", "tag2"]
+
+### TEST DE LA FONCTION process_text() ###
+
+nlp = spacy.load("en_core_web_sm")
+
+def test_characters_lemmatization():
+    text = "Hello, world! This is a test with numbers 123 and symbols *&^%$#@!"
+    result = mt.process_text(nlp, text)
+    expected = ["hello", "world", "test", "number", "symbol"]
+    assert result == expected
+
+def test_allowed_words():
+    text = "The quick brown fox jumps over the lazy dog."
+    allowed_words = {"quick", "fox", "dog", "wine"}
+    result = mt.process_text(nlp, text, allowed_words)
+    expected = ["quick", "fox", "dog"]
+    assert result == expected
+
+def test_unique_words():
+    text = "Hello hello world world"
+    result = mt.process_text(nlp, text, unique=True)
+    expected = ["hello", "world"]
+    assert set(result) == set(expected)
+
+def test_all_features():
+    text = "The quick quick brown fox jumps over the lazy dog dog."
+    allowed_words = {"quick", "brown", "fox", "jump", "wine"}
+    result = mt.process_text(nlp, text, allowed_words, unique=True)
+    expected = ["quick", "brown", "fox", "jump"]
+    assert set(result) == set(expected)

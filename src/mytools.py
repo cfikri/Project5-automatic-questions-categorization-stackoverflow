@@ -209,6 +209,9 @@ def process_text(nlp, text, allowed_words=None, unique=False):
     # Suppression des doublons.
     if unique == True:
         words = list(set(words))
+
+    # Supression des chaînes vides et des espaces supplémentaires.
+    words = [word for word in words if word.strip()]
     
     return words
 
