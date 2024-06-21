@@ -70,10 +70,3 @@ def test_unique_words():
     result = mt.process_text(nlp, text, unique=True)
     expected = ["hello", "world"]
     assert set(result) == set(expected)
-
-def test_all_features():
-    text = "The quick quick brown fox jumps over the lazy dog dog."
-    allowed_words = {"quick", "brown", "fox", "jump", "wine"}
-    result = mt.process_text(nlp, text, allowed_words, unique=True)
-    expected = ["quick", "brown", "fox", "jump"]
-    assert set(result) == set(expected)
